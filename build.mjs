@@ -23,7 +23,7 @@ export const config = {
   downloads: "https://github.com/OliverSogaard/cull-releases/releases/latest",
   version: "1.9.1",
   /** Empty until the owner sets them (same values as src/product.ts). */
-  supportEmail: "",
+  supportEmail: "cull.help@outlook.com",
   reportUrl: "",
   owner: "Oliver Søgaard-Andersen",
   year: "2026",
