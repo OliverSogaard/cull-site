@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1024" height="1024">
+  <!-- CULL app icon, direction B (1.1): a heavy C cut like an aperture blade,
+       champagne on near-black, full-bleed rounded square. Windows wants the
+       plate to fill the canvas; macOS gets the inset variant next to this
+       file (icon-source-mac.svg). Regenerate the set with:
+         pnpm tauri icon src-tauri/icon-source.svg
+       and the .icns alone from the mac variant (see the release notes). -->
+  <rect x="0" y="0" width="512" height="512" rx="118" fill="#121214"/>
+  <path d="M256 92a164 164 0 1 0 142 246l-62-36a92 92 0 1 1 0-92l62-36A164 164 0 0 0 256 92z" fill="#d4af6a"/>
+</svg>

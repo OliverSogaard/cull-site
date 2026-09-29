@@ -230,10 +230,10 @@ a {
 
 .hero__title {
   font-size: var(--hero);
-  line-height: 1.02;
-  letter-spacing: -0.03em;
+  line-height: 1.0;
+  letter-spacing: -0.035em;
   font-weight: 500;
-  margin: 18px 0 24px;
+  margin: 0 0 28px;
   max-width: 12ch;
 }
 
@@ -257,10 +257,8 @@ a {
 }
 
 .hero__fine {
-  margin: 18px 0 0;
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  letter-spacing: 0.04em;
+  margin: 20px 0 0;
+  font-size: 0.9375rem;
   color: var(--muted);
 }
 
@@ -523,5 +521,87 @@ a {
 
   .nav__links a:not(.is-cta) {
     display: none;
+  }
+}
+
+/* ── the story: two short paragraphs with the keys inline ── */
+.story {
+  padding: clamp(64px, 9vw, 128px) 0 clamp(56px, 8vw, 104px);
+}
+
+.story__text {
+  max-width: 40rem;
+}
+
+.story h2 {
+  font-size: var(--display);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  margin: 0 0 14px;
+}
+
+.story h2 + p {
+  margin: 0 0 56px;
+}
+
+.story p {
+  font-size: var(--lead);
+  line-height: 1.6;
+  color: var(--text-2);
+}
+
+.story p .kbd {
+  font-size: 0.8125em;
+  padding: 1px 8px 2px;
+  margin: 0 1px;
+  position: relative;
+  top: -1px;
+}
+
+.story__aside {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+.story__aside a {
+  color: var(--text-2);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--border);
+}
+
+.story__aside a:hover {
+  color: var(--text);
+  text-decoration-color: var(--accent);
+}
+
+/* formats as a plain list */
+.formats-list {
+  margin: 8px 0 8px;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 14px 28px;
+}
+
+.formats-list dt {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.formats-list dd {
+  margin: 0;
+  color: var(--text-2);
+}
+
+@media (width < 600px) {
+  .formats-list {
+    grid-template-columns: 1fr;
+    gap: 4px 0;
+  }
+
+  .formats-list dd {
+    margin-bottom: 12px;
   }
 }
