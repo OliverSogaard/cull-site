@@ -111,6 +111,8 @@ export function layout({ slug, title, description, body, wide = false }) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>${esc(title)}</title>
     <meta name="description" content="${esc(description)}" />
+    <!-- Not released: removed on launch day. -->
+    <meta name="robots" content="noindex" />
     <link rel="icon" href="./assets/icon-64.png" />
     <link rel="stylesheet" href="./assets/site.css" />
     <link rel="stylesheet" href="./assets/pages.css" />
@@ -121,7 +123,6 @@ export function layout({ slug, title, description, body, wide = false }) {
         <a class="nav__brand" href="./">CULL</a>
         <nav class="nav__links" aria-label="Site">
           ${nav(slug)}
-          <a class="is-cta" href="${config.downloads}">Download</a>
         </nav>
       </div>
     </header>
