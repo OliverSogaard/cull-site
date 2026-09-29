@@ -1,10 +1,10 @@
 # What's new
 
-## 1.9.0
+## 2.0.0
 
-- A welcome on first launch: the promise, the five keys, and your first folder. Hints in the status bar during your first cull, each gone once you have done it.
-- What's new opens once after an update, from a line on the home screen. License terms and the privacy policy are in About and are shipped inside the app.
-- Coming in 2.0: CULL Free and CULL Pro. Free culls up to 250 frames in one session; Pro has no limit. Everyone who installed before 2.0 gets Pro until the end of 2028, at no cost.
+- CULL Free and CULL Pro. Free has every feature and culls up to 250 frames in one session. Pro has no limit. A license key goes in under Settings → License; "Remove license from this computer" takes it out again.
+- The limit is decided by the app itself when a cull begins, on the whole staged set, so it holds whatever folders are opened.
+- The 1.9.0 note about free Pro for copies installed before 2.0 no longer applies: CULL was not released before 2.0, and every copy starts on Free.
 
 ## 1.9.2
 
@@ -14,6 +14,12 @@
 
 - The first-cull hint floats over the bottom of the photo instead of sitting in the status bar, so it has room at every window size.
 - About: "Licenses" is now "Third-party licenses", to tell it from the license terms.
+
+## 1.9.0
+
+- A welcome on first launch: the promise, the five keys, and your first folder. Hints in the status bar during your first cull, each gone once you have done it.
+- What's new opens once after an update, from a line on the home screen. License terms and the privacy policy are in About and are shipped inside the app.
+- Coming in 2.0: CULL Free and CULL Pro. Free culls up to 250 frames in one session; Pro has no limit. Everyone who installed before 2.0 gets Pro until the end of 2028, at no cost.
 
 ## 1.8.0
 
