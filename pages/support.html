@@ -1,0 +1,34 @@
+      <article class="prose">
+        <div class="eyebrow">Support</div>
+        <h1>Something wrong? Say so from inside the app.</h1>
+        <p class="hero__lead">
+          The fastest way to report a problem is the report built into CULL: open Settings,
+          go to About, and choose <strong>Report a problem</strong>. It asks what happened
+          and what you expected, and can attach diagnostics that you read before they leave
+          your computer.
+        </p>
+        <h2>What a report contains</h2>
+        <ul>
+          <li>What you typed.</li>
+          <li>If you tick the box: the app version, your operating system, counts of file types in the shoot, your settings without any path, and the last lines of the log.</li>
+          <li>Never a photograph, a thumbnail, or the name of a file, a folder or a person. Paths are reduced to their file extension before anything is written.</li>
+        </ul>
+        <p>
+          The report is saved as a file on your computer and shown to you. You choose
+          whether to send it.
+        </p>
+        {{supportEmailBlock}}
+        <h2>If CULL will not start</h2>
+        <p>
+          The log is in the app's log folder: on Windows under
+          <code>%APPDATA%\dev.cull.app\logs</code>, on macOS under
+          <code>~/Library/Logs/dev.cull.app</code>. It contains no file names. Attach
+          <code>cull.log</code> to your message.
+        </p>
+        <h2>Lightroom does not show my verdicts</h2>
+        <ul>
+          <li>Import the folder with <strong>Add</strong>, not Copy, so Lightroom reads the sidecars where they are.</li>
+          <li>For a folder already in your catalog, select the photos and choose <strong>Metadata → Read Metadata from Files</strong>.</li>
+          <li>A DNG carries its verdict inside the file. Lightroom reads it on import, or on Read Metadata from Files.</li>
+        </ul>
+      </article>

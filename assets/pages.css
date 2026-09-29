@@ -1,0 +1,162 @@
+/* ── the text pages: formats, changelog, support, legal, press ── */
+.page {
+  padding: clamp(48px, 7vw, 96px) 0 clamp(56px, 8vw, 112px);
+}
+
+.prose {
+  max-width: 44rem;
+}
+
+.prose--wide {
+  max-width: 64rem;
+}
+
+.prose h1 {
+  font-size: var(--display);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  margin: 12px 0 20px;
+}
+
+.prose h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin: 44px 0 10px;
+}
+
+.prose h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 28px 0 8px;
+}
+
+.prose p,
+.prose li {
+  color: var(--text-2);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+.prose p {
+  margin: 0 0 16px;
+}
+
+.prose strong {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.prose ul {
+  margin: 0 0 18px;
+  padding-left: 22px;
+}
+
+.prose li {
+  margin: 0 0 6px;
+}
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  padding: 1px 6px;
+  border-radius: var(--r-2);
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.prose a {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--border);
+}
+
+.prose a:hover {
+  text-decoration-color: var(--accent);
+}
+
+.prose > p:first-of-type em,
+.prose .hero__lead em {
+  font-style: normal;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+/* the formats table */
+.table-wrap {
+  overflow-x: auto;
+  margin: 8px 0 8px;
+}
+
+.formats {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.formats th,
+.formats td {
+  text-align: left;
+  vertical-align: top;
+  padding: 14px 16px 14px 0;
+  border-bottom: 1px solid var(--border-soft);
+  color: var(--text-2);
+}
+
+.formats thead th {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 500;
+  border-bottom-color: var(--border);
+}
+
+.formats tbody th {
+  color: var(--text);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* press kit */
+.press-icon img {
+  border-radius: 24px;
+  box-shadow: var(--shadow-2);
+}
+
+.shots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.shots figure {
+  margin: 0;
+}
+
+.shots img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--r-3);
+  border: 1px solid var(--border);
+}
+
+.shots figcaption {
+  margin-top: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+@media (width < 700px) {
+  .formats tbody th {
+    white-space: normal;
+  }
+}

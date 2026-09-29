@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formats — CULL</title>
+    <meta name="description" content="Which RAW formats CULL opens, and what each one gives: zoom to 100 %, the AF point, and burst grouping, measured body by body." />
+    <link rel="icon" href="./assets/icon-64.png" />
+    <link rel="stylesheet" href="./assets/site.css" />
+    <link rel="stylesheet" href="./assets/pages.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="wrap nav__row">
+        <a class="nav__brand" href="./">CULL</a>
+        <nav class="nav__links" aria-label="Site">
+          <a href="./formats.html" aria-current="page">Formats</a>
+          <a href="./changelog.html">Changelog</a>
+          <a href="./support.html">Support</a>
+          <a class="is-cta" href="https://github.com/OliverSogaard/cull-releases/releases/latest">Download</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap page">
+      <article class="prose prose--wide">
+        <div class="eyebrow">Formats</div>
+        <h1>Eight RAW formats, measured body by body.</h1>
+        <p class="hero__lead">
+          CULL never decodes sensor data. Every view is the JPEG your camera already embedded
+          in the file, read by exact byte range, which is why a folder of thousands opens in
+          seconds. What each format gives depends on what its bodies embed, and the app says so
+          instead of pretending: where the largest embedded JPEG is smaller than the sensor, a
+          quiet "preview · N px" badge appears while you zoom.
+        </p>
+        <div class="table-wrap">
+          <table class="formats">
+            <thead>
+              <tr><th>Format</th><th>Zoom to 100 %</th><th>AF point</th><th>Bursts</th></tr>
+            </thead>
+            <tbody>
+              <tr><th>Canon CR3</th><td>Sensor-size JPEG on every body.</td><td>Yes</td><td>From the drive mode</td></tr>
+              <tr><th>Canon CR2</th><td>Sensor-size JPEG on every body.</td><td>Yes</td><td>From the drive mode</td></tr>
+              <tr><th>Nikon NEF</th><td>Sensor-size JPEG, plus a 1620 px preview for navigation.</td><td>No. Zoom goes to the center: viewfinder shots store only a point index, and Z bodies encrypt the block.</td><td>From the drive mode</td></tr>
+              <tr><th>Sony ARW</th><td>Bodies from 2021 on (A1, A7 IV, A7C II, …) embed a sensor-size JPEG. Earlier ones only a 1616 px preview, with the badge.</td><td>Yes, on bodies from about 2013</td><td>From the drive mode</td></tr>
+              <tr><th>Fujifilm RAF</th><td>The one embedded JPEG is about half the sensor's width on every body, so the badge shows on every file.</td><td>Yes</td><td>From the drive mode</td></tr>
+              <tr><th>Olympus and OM System ORF</th><td>Every body from the E-1 to the OM-1 embeds a 3200 px preview and nothing larger, so the badge shows on every file.</td><td>Yes, when the body recorded a point</td><td>From the drive mode</td></tr>
+              <tr><th>Panasonic RW2, Leica RWL</th><td>Bodies from 2022 on (GH6, GH7, G9 II, S5 II) embed a sensor-size JPEG. Earlier ones only a 1920 px preview, with the badge.</td><td>Yes on Panasonic bodies. Leica's maker note is not decoded.</td><td>From the drive mode</td></tr>
+              <tr><th>Adobe DNG</th><td>Whatever the writer embedded. Adobe's converter default and phones embed small previews, with the badge; Leica, Pentax, Ricoh and Sigma write a full-size one.</td><td>No. Zoom goes to the center.</td><td>By capture cadence</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2>Where verdicts go</h2>
+        <p>
+          For every format but DNG, verdicts are written to an XMP sidecar next to the file:
+          keep is a pick flag, reject is a reject flag, favorite is a pick with a purple label.
+          Lightroom Classic reads them on import. A DNG carries its own metadata block, and
+          Lightroom ignores a sidecar next to one, so for a DNG the verdict is written into
+          that block. In both cases the image data is never touched.
+        </p>
+        <h2>Not supported</h2>
+        <p>
+          Pentax PEF, Samsung SRW, Hasselblad 3FR, Sigma X3F and the old Canon CRW. Most of
+          those cameras can also write DNG, which CULL opens.
+        </p>
+      </article>
+
+    </main>
+    <footer class="footer">
+      <div class="wrap footer__row">
+        <div>
+          <a href="./formats.html">Formats</a><a href="./changelog.html">Changelog</a><a href="./support.html">Support</a><a href="./privacy.html">Privacy policy</a><a href="./terms.html">License terms</a><a href="./press.html">Press kit</a>
+        </div>
+        <div>© 2026 Oliver Søgaard-Andersen</div>
+      </div>
+    </footer>
+  </body>
+</html>
