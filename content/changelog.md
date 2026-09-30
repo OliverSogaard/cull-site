@@ -1,5 +1,15 @@
 # What's new
 
+## 2.1.1
+
+- Help has a toggle: F1 opens the keys sheet and keeps it open until F1 or Esc. Holding Tab still shows it for as long as it is held.
+- Updating no longer makes the next launch say CULL didn't close properly.
+- A dialog opened with the mouse no longer lights up its first button; opened from the keyboard, it still starts on the safe choice.
+- Settings → General: the default overlays row wraps instead of forcing a sideways scroll.
+- Scrollbars match the app instead of the system's white ones.
+- The recent folders list gives keyboard focus room around each row.
+- What's new has space above its footer; over the Free limit, the staged screen no longer suggests adding folders. The keys sheet no longer shows a light seam under the title bar.
+
 ## 2.1.0
 
 - Faster on big shoots: a rating no longer stalls for a moment while the smart suggestions catch up, scrubbing stays smooth while thumbnails fill in, and the loupe and compare panes stop repainting for changes behind them.
