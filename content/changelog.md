@@ -1,5 +1,26 @@
 # What's new
 
+## 2.1.0
+
+- Faster on big shoots: a rating no longer stalls for a moment while the smart suggestions catch up, scrubbing stays smooth while thumbnails fill in, and the loupe and compare panes stop repainting for changes behind them.
+- Faster on a NAS: moving rejects does one file operation per frame instead of six, opening a shoot of DNGs no longer looks for a sidecar beside every file, filmstrip thumbnails read a tenth of the data, and cache hits copy nothing.
+- Smart culling scores frames on several cores when the shoot is on a local drive.
+- Rating, starring or labelling a DNG keeps its cached previews, so reopening a culled DNG shoot is instant again.
+- A frame with no embedded preview (some DNGs, a CR2 without one) shows as unavailable in the grid instead of retrying forever.
+- Capture-time order: a DNG whose XMP another tool had written, or a frame whose date sat right at a read boundary, could lose its capture time and sort by file date. Fixed.
+- The Finish button in the status bar no longer reopens the dialog with the previous run's result.
+- Copying keeps to an export folder flushes each file to disk before it counts as done, so a power cut cannot leave a truncated copy that later looks finished.
+- Settings are saved a moment after the last change instead of on every change, and always before a quit, an export or an update.
+- Keyboard: Ctrl R retries changes that didn't save and re-checks an unreachable folder. F6 moves focus between the frame, the status bars and the info rail; there, Enter and Space press a button, the arrows move between buttons, and Esc returns to the frame.
+- Screen readers hear saving and failed saves, the folder and memory chips, analyzing progress, Finish results and a copied report. The grid and filmstrips are lists of named frames (verdict, stars, label). Dialogs keep focus inside and start on the safe choice, so Enter on Stay stays.
+- With unsaved changes, the leave dialog and the Finish dialog offer Retry saving.
+- Two-step confirms say what they do, wait 20 seconds, and cancel on Esc or when focus moves away. Windows says Recycle Bin.
+- Wording: frames rather than ratings or images, Filmstrip, Finish the cull, Lightroom rating, key names like Ctrl E and Shift 3, Center guide, and error messages that say what to do next. Counts get thousands separators. Leica is named among the formats.
+- Quieter text is brighter, and text fields have a visible border.
+- Report a problem: one "Save as file", "Copied." feedback, and a note when no mail program opens.
+- The license terms and privacy policy state what the app does today: a key is checked on this computer and nothing is sent. There is no trial, and the terms no longer mention one.
+- Saving settings, adding or removing a license, and writing the log no longer run on the window's thread, so a slow drive cannot freeze the window.
+
 ## 2.0.1
 
 - Settings live in a file (settings.json in the app's data folder) and move there on their own from earlier versions. Settings → Storage can export them to a file and import them on another computer.
@@ -10,7 +31,6 @@
 
 - CULL Free and CULL Pro. Free has every feature and culls up to 250 frames in one session. Pro has no limit. A license key goes in under Settings → License; "Remove license from this computer" takes it out again.
 - The limit is decided by the app itself when a cull begins, on the whole staged set, so it holds whatever folders are opened.
-- The 1.9.0 note about free Pro for copies installed before 2.0 no longer applies: CULL was not released before 2.0, and every copy starts on Free.
 
 ## 1.9.2
 
@@ -25,7 +45,6 @@
 
 - A welcome on first launch: the promise, the five keys, and your first folder. Hints in the status bar during your first cull, each gone once you have done it.
 - What's new opens once after an update, from a line on the home screen. License terms and the privacy policy are in About and are shipped inside the app.
-- Coming in 2.0: CULL Free and CULL Pro. Free culls up to 250 frames in one session; Pro has no limit. Everyone who installed before 2.0 gets Pro until the end of 2028, at no cost.
 
 ## 1.8.0
 
@@ -35,13 +54,13 @@
 
 ## 1.7.2
 
-- Every message in the app reads the same way: what happened, then what to do. Backend details no longer appear on screen.
+- Every message in the app reads the same way: what happened, then what to do. Error messages no longer show technical details.
 - About shows what's new and the licenses of bundled components.
 - Spelling unified to American English (favorite, color).
 
 ## 1.7.1
 
-- Updates are now delivered from a dedicated downloads repository.
+- Updates download faster and more reliably.
 
 ## 1.7.0
 

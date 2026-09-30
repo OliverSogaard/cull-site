@@ -2,7 +2,7 @@
 
 Version 1 · September 2026
 
-This policy is written in plain language. A lawyer reviews it before the first sale.
+This policy is written in plain language.
 
 ## The short version
 
@@ -17,8 +17,8 @@ CULL runs on your computer. Your photographs, your verdicts and your settings st
 ## What leaves your computer, and when
 
 - **Update check.** When CULL starts, it asks GitHub, where releases are hosted, for the newest version. As with any web request, GitHub sees your IP address; the request carries nothing else about you or your photographs.
-- **A problem report.** Only when you send one. It contains what you typed, and, if you tick the box, diagnostics: the app version, your operating system, counts of file types in the shoot, your settings without any path, and the last lines of the log. The whole report is shown to you before it leaves, and paths are reduced to file extensions once more on the way out. Today a report is saved as a file on your computer, and you choose whether to send it, by email through your own mail program. When a report server exists, sending goes to it directly and this policy will say so. The email address is optional and is used only to reply.
-- **License activation.** When Pro exists: activating a license sends the license key and an identifier of your computer that does not contain your name, so the license can be tied to that computer.
+- **A problem report.** Only when you send one. It contains what you typed, and, if you tick the box, diagnostics: the app version, your operating system, counts of file types in the shoot, your settings without any path, and the last lines of the log. The whole report is shown to you before it leaves, and paths are reduced to file extensions once more on the way out. CULL saves the report as a file on your computer, or copies it, and you choose whether to send it, by email through your own mail program. The email address is optional and is used only to reply.
+- **Adding a license.** The key is checked on this computer; nothing is sent.
 
 CULL sends no usage statistics and no crash reports on its own, and it never uploads a photograph or a thumbnail.
 

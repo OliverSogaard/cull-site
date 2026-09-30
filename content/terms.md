@@ -2,7 +2,7 @@
 
 Version 1 · September 2026
 
-These terms are written in plain language. A lawyer reviews them before the first sale; until then they are the working agreement between you and the author.
+These terms are written in plain language.
 
 ## Who this is between
 
@@ -21,9 +21,9 @@ CULL is made by Oliver Søgaard-Andersen ("the author"). By installing or using 
 - Remove or alter any notice of ownership in CULL.
 - Use CULL to build a product that competes with it by copying its design or code.
 
-## Free, Pro and trials
+## Free and Pro
 
-CULL Free is free of charge and may limit the number of frames in one culling session. CULL Pro removes that limit and is licensed per person, for the computers that person uses. A trial of Pro is free for a stated period and then returns to Free. Prices, limits and trial length are stated in the app and on the website at the time.
+CULL Free is free of charge and may limit the number of frames in one culling session. CULL Pro removes that limit and is licensed per person, for the computers that person uses. Prices and limits are stated in the app and on the website at the time.
 
 A Pro license may be moved from one computer to another. It may not be shared with, resold to or used by another person.
 
@@ -37,7 +37,7 @@ CULL checks for updates when it starts and offers to install them. Installing an
 
 ## No warranty
 
-CULL is provided "as is". The author does not promise that it is free of defects or that it fits a particular purpose. Verdicts are suggestions written to metadata; you decide what to keep and what to delete, and you should keep backups of your photographs as you would with any other tool.
+CULL is provided "as is". The author does not promise that it is free of defects or that it fits a particular purpose. Verdicts are what you decide, written to metadata; Smart culling suggestions are advisory only; you decide what to keep and what to delete, and you should keep backups of your photographs as you would with any other tool.
 
 ## Limit of liability
 
