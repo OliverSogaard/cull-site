@@ -1,5 +1,11 @@
 # What's new
 
+## 2.0.1
+
+- Settings live in a file (settings.json in the app's data folder) and move there on their own from earlier versions. Settings → Storage can export them to a file and import them on another computer.
+- About: a "Check for updates" button, and the Third-party licenses page now lists every component in the app, not only the models.
+- The Windows installer shows the license terms, installs for the current user, and on uninstall removes the image cache and logs. Sidecars are never touched.
+
 ## 2.0.0
 
 - CULL Free and CULL Pro. Free has every feature and culls up to 250 frames in one session. Pro has no limit. A license key goes in under Settings → License; "Remove license from this computer" takes it out again.
