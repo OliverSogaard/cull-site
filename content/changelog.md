@@ -1,5 +1,9 @@
 # What's new
 
+## 2.1.2
+
+- Report a problem sends with one click. The report goes straight to CULL's support inbox and you get a ticket number back; saving it as a file or emailing it still works.
+
 ## 2.1.1
 
 - Help has a toggle: F1 opens the keys sheet and keeps it open until F1 or Esc. Holding Tab still shows it for as long as it is held.
