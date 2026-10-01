@@ -1,5 +1,12 @@
 # What's new
 
+## 2.1.3
+
+- The privacy policy describes where a sent report goes.
+- Report a problem: the app's own checkbox, and the focus ring on a text field is no longer cut off.
+- About sits with its buttons and copyright line at the bottom of the pane.
+- Settings → General fits without a scrollbar; the diagnostic logging row says what the log holds when it is off.
+
 ## 2.1.2
 
 - Report a problem sends with one click. The report goes straight to CULL's support inbox and you get a ticket number back; saving it as a file or emailing it still works.

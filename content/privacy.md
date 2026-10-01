@@ -17,14 +17,14 @@ CULL runs on your computer. Your photographs, your verdicts and your settings st
 ## What leaves your computer, and when
 
 - **Update check.** When CULL starts, it asks GitHub, where releases are hosted, for the newest version. As with any web request, GitHub sees your IP address; the request carries nothing else about you or your photographs.
-- **A problem report.** Only when you send one. It contains what you typed, and, if you tick the box, diagnostics: the app version, your operating system, counts of file types in the shoot, your settings without any path, and the last lines of the log. The whole report is shown to you before it leaves, and paths are reduced to file extensions once more on the way out. CULL saves the report as a file on your computer, or copies it, and you choose whether to send it, by email through your own mail program. The email address is optional and is used only to reply.
+- **A problem report.** Only when you send one. It contains what you typed, and, if you tick the box, diagnostics: the app version, your operating system, counts of file types in the shoot, your settings without any path, and the last lines of the log. The whole report is shown to you before it leaves, and paths are reduced to file extensions once more on the way out. Pressing Send delivers it to CULL's report endpoint, which runs on Cloudflare and stores it as a private issue in a GitHub repository that only the author can read; you get a ticket number back. The endpoint accepts five reports a minute from one address and keeps nothing else about you. You can instead save the report as a file, copy it, or send it by email through your own mail program. The email address is optional and is used only to reply.
 - **Adding a license.** The key is checked on this computer; nothing is sent.
 
 CULL sends no usage statistics and no crash reports on its own, and it never uploads a photograph or a thumbnail.
 
 ## Where reports go
 
-A report you send is kept by the author, in a mailbox or a private issue tracker that only the author can read, for as long as the problem is open and then for up to two years, so that a returning problem can be recognized.
+A report you send is kept by the author in a private issue tracker (GitHub) or, if you emailed it, in a mailbox, either of which only the author can read, for as long as the problem is open and then for up to two years, so that a returning problem can be recognized. Cloudflare and GitHub process the report on the author's behalf under their own privacy terms; neither receives your photographs.
 
 ## Your rights
 
