@@ -26,49 +26,51 @@
       <article class="prose">
         <div class="eyebrow">What's new</div>
         
-        <h2 id="2-1-4">2.1.4</h2>
+        <h2 id="2-1-5-2026-10-01">2.1.5 · 2026-10-01</h2>
+<ul><li>Feedback has its own tab in Settings, above About. The form follows what you came for: a problem asks what happened and what you expected and includes diagnostics; an idea asks what it is and why it would help; a question needs your email so the answer can reach you. Send is the one button; saving or copying the report is offered only if sending fails.</li><li>Every version in What's new shows its release date.</li><li>The grid shows one scrollbar, the app's own.</li><li>Settings shows the version in its header. The info rail's purple note is one line.</li><li>No stray outline on a window or sheet that was just opened; the ring appears only when you reach something with Tab.</li><li>Recent folders: the count and the time sit centered in the row. The grid's star mark sits a little further from the corner. The AF point bracket is red.</li><li>The keys sheet no longer shows a light seam under the title bar.</li></ul>
+<h2 id="2-1-4-2026-09-30">2.1.4 · 2026-09-30</h2>
 <ul><li>The Windows installer carries CULL's own icon and artwork, and shows a plain progress bar instead of a list of files.</li></ul>
-<h2 id="2-1-3">2.1.3</h2>
+<h2 id="2-1-3-2026-09-30">2.1.3 · 2026-09-30</h2>
 <ul><li>The privacy policy describes where a sent report goes.</li><li>Report a problem: the app's own checkbox, and the focus ring on a text field is no longer cut off.</li><li>About sits with its buttons and copyright line at the bottom of the pane.</li><li>Settings → General fits without a scrollbar; the diagnostic logging row says what the log holds when it is off.</li></ul>
-<h2 id="2-1-2">2.1.2</h2>
+<h2 id="2-1-2-2026-09-30">2.1.2 · 2026-09-30</h2>
 <ul><li>Report a problem sends with one click. The report goes straight to CULL's support inbox and you get a ticket number back; saving it as a file or emailing it still works.</li></ul>
-<h2 id="2-1-1">2.1.1</h2>
+<h2 id="2-1-1-2026-09-30">2.1.1 · 2026-09-30</h2>
 <ul><li>Help has a toggle: F1 opens the keys sheet and keeps it open until F1 or Esc. Holding Tab still shows it for as long as it is held.</li><li>Updating no longer makes the next launch say CULL didn't close properly.</li><li>A dialog opened with the mouse no longer lights up its first button; opened from the keyboard, it still starts on the safe choice.</li><li>Settings → General: the default overlays row wraps instead of forcing a sideways scroll.</li><li>Scrollbars match the app instead of the system's white ones.</li><li>The recent folders list gives keyboard focus room around each row.</li><li>What's new has space above its footer; over the Free limit, the staged screen no longer suggests adding folders. The keys sheet no longer shows a light seam under the title bar.</li></ul>
-<h2 id="2-1-0">2.1.0</h2>
+<h2 id="2-1-0-2026-09-30">2.1.0 · 2026-09-30</h2>
 <ul><li>Faster on big shoots: a rating no longer stalls for a moment while the smart suggestions catch up, scrubbing stays smooth while thumbnails fill in, and the loupe and compare panes stop repainting for changes behind them.</li><li>Faster on a NAS: moving rejects does one file operation per frame instead of six, opening a shoot of DNGs no longer looks for a sidecar beside every file, filmstrip thumbnails read a tenth of the data, and cache hits copy nothing.</li><li>Smart culling scores frames on several cores when the shoot is on a local drive.</li><li>Rating, starring or labelling a DNG keeps its cached previews, so reopening a culled DNG shoot is instant again.</li><li>A frame with no embedded preview (some DNGs, a CR2 without one) shows as unavailable in the grid instead of retrying forever.</li><li>Capture-time order: a DNG whose XMP another tool had written, or a frame whose date sat right at a read boundary, could lose its capture time and sort by file date. Fixed.</li><li>The Finish button in the status bar no longer reopens the dialog with the previous run's result.</li><li>Copying keeps to an export folder flushes each file to disk before it counts as done, so a power cut cannot leave a truncated copy that later looks finished.</li><li>Settings are saved a moment after the last change instead of on every change, and always before a quit, an export or an update.</li><li>Keyboard: Ctrl R retries changes that didn't save and re-checks an unreachable folder. F6 moves focus between the frame, the status bars and the info rail; there, Enter and Space press a button, the arrows move between buttons, and Esc returns to the frame.</li><li>Screen readers hear saving and failed saves, the folder and memory chips, analyzing progress, Finish results and a copied report. The grid and filmstrips are lists of named frames (verdict, stars, label). Dialogs keep focus inside and start on the safe choice, so Enter on Stay stays.</li><li>With unsaved changes, the leave dialog and the Finish dialog offer Retry saving.</li><li>Two-step confirms say what they do, wait 20 seconds, and cancel on Esc or when focus moves away. Windows says Recycle Bin.</li><li>Wording: frames rather than ratings or images, Filmstrip, Finish the cull, Lightroom rating, key names like Ctrl E and Shift 3, Center guide, and error messages that say what to do next. Counts get thousands separators. Leica is named among the formats.</li><li>Quieter text is brighter, and text fields have a visible border.</li><li>Report a problem: one &quot;Save as file&quot;, &quot;Copied.&quot; feedback, and a note when no mail program opens.</li><li>The license terms and privacy policy state what the app does today: a key is checked on this computer and nothing is sent. There is no trial, and the terms no longer mention one.</li><li>Saving settings, adding or removing a license, and writing the log no longer run on the window's thread, so a slow drive cannot freeze the window.</li></ul>
-<h2 id="2-0-1">2.0.1</h2>
+<h2 id="2-0-1-2026-09-29">2.0.1 · 2026-09-29</h2>
 <ul><li>Settings live in a file (settings.json in the app's data folder) and move there on their own from earlier versions. Settings → Storage can export them to a file and import them on another computer.</li><li>About: a &quot;Check for updates&quot; button, and the Third-party licenses page now lists every component in the app, not only the models.</li><li>The Windows installer shows the license terms, installs for the current user, and on uninstall removes the image cache and logs. Sidecars are never touched.</li></ul>
-<h2 id="2-0-0">2.0.0</h2>
+<h2 id="2-0-0-2026-09-29">2.0.0 · 2026-09-29</h2>
 <ul><li>CULL Free and CULL Pro. Free has every feature and culls up to 250 frames in one session. Pro has no limit. A license key goes in under Settings → License; &quot;Remove license from this computer&quot; takes it out again.</li><li>The limit is decided by the app itself when a cull begins, on the whole staged set, so it holds whatever folders are opened.</li></ul>
-<h2 id="1-9-2">1.9.2</h2>
+<h2 id="1-9-2-2026-09-29">1.9.2 · 2026-09-29</h2>
 <ul><li>About links to the website, and Report a problem can email support directly: cull.help@outlook.com.</li></ul>
-<h2 id="1-9-1">1.9.1</h2>
+<h2 id="1-9-1-2026-09-29">1.9.1 · 2026-09-29</h2>
 <ul><li>The first-cull hint floats over the bottom of the photo instead of sitting in the status bar, so it has room at every window size.</li><li>About: &quot;Licenses&quot; is now &quot;Third-party licenses&quot;, to tell it from the license terms.</li></ul>
-<h2 id="1-9-0">1.9.0</h2>
+<h2 id="1-9-0-2026-09-29">1.9.0 · 2026-09-29</h2>
 <ul><li>A welcome on first launch: the promise, the five keys, and your first folder. Hints in the status bar during your first cull, each gone once you have done it.</li><li>What's new opens once after an update, from a line on the home screen. License terms and the privacy policy are in About and are shipped inside the app.</li></ul>
-<h2 id="1-8-0">1.8.0</h2>
+<h2 id="1-8-0-2026-09-29">1.8.0 · 2026-09-29</h2>
 <ul><li>Report a problem from About: what happened, what you expected, and diagnostics you can read before they leave your computer. With no report server set up yet, the report is saved as a file and shown in your file manager.</li><li>A log file, kept on this computer (Settings → Storage → Open log folder). It never contains file or folder names, or paths: a path is reduced to its file extension before it is written. Diagnostic logging adds detail when you are asked for it.</li><li>If CULL closes unexpectedly, the next start says so and offers to report it.</li></ul>
-<h2 id="1-7-2">1.7.2</h2>
+<h2 id="1-7-2-2026-09-28">1.7.2 · 2026-09-28</h2>
 <ul><li>Every message in the app reads the same way: what happened, then what to do. Error messages no longer show technical details.</li><li>About shows what's new and the licenses of bundled components.</li><li>Spelling unified to American English (favorite, color).</li></ul>
-<h2 id="1-7-1">1.7.1</h2>
+<h2 id="1-7-1-2026-09-28">1.7.1 · 2026-09-28</h2>
 <ul><li>Updates download faster and more reliably.</li></ul>
-<h2 id="1-7-0">1.7.0</h2>
+<h2 id="1-7-0-2026-09-28">1.7.0 · 2026-09-28</h2>
 <ul><li>Olympus and OM System ORF files open, with the AF point and drive mode from the camera. Every Olympus body embeds a 3200 px preview, so zoom shows that preview and says so.</li><li>Panasonic RW2 and Leica RWL files open. Bodies from 2022 on zoom to the full image; earlier ones zoom to their 1920 px preview.</li></ul>
-<h2 id="1-6-1">1.6.1</h2>
+<h2 id="1-6-1-2026-09-28">1.6.1 · 2026-09-28</h2>
 <ul><li>Faster opening of every frame and a cheaper folder scan.</li></ul>
-<h2 id="1-6-0">1.6.0</h2>
+<h2 id="1-6-0-2026-09-28">1.6.0 · 2026-09-28</h2>
 <ul><li>A DNG's verdicts are written inside the DNG, where Lightroom reads them, instead of to a sidecar it would ignore.</li></ul>
-<h2 id="1-5-0">1.5.0</h2>
+<h2 id="1-5-0-2026-09-27">1.5.0 · 2026-09-27</h2>
 <ul><li>Sony ARW, Nikon NEF and Fujifilm RAF files open, with the AF point and drive mode where the camera records them.</li><li>A quiet badge shows when a file has no full-size JPEG inside it and zoom is limited to its largest preview.</li></ul>
-<h2 id="1-4-0">1.4.0</h2>
+<h2 id="1-4-0-2026-09-27">1.4.0 · 2026-09-27</h2>
 <ul><li>Adobe DNG files open, from any camera or converter.</li></ul>
-<h2 id="1-3-0">1.3.0</h2>
+<h2 id="1-3-0-2026-09-26">1.3.0 · 2026-09-26</h2>
 <ul><li>A favorite is written as Lightroom's purple label; stars are yours alone, and CULL never removes a label it did not write.</li></ul>
-<h2 id="1-2-0">1.2.0</h2>
+<h2 id="1-2-0-2026-09-26">1.2.0 · 2026-09-26</h2>
 <ul><li>Canon CR2 files open.</li></ul>
-<h2 id="1-1-0">1.1.0</h2>
+<h2 id="1-1-0-2026-09-26">1.1.0 · 2026-09-26</h2>
 <ul><li>Composition guides, the AF-point bracket, and a new icon.</li></ul>
-<h2 id="1-0-0">1.0.0</h2>
+<h2 id="1-0-0-2026-09-21">1.0.0 · 2026-09-21</h2>
 <ul><li>First release: keyboard-fast culling of Canon CR3 files with Lightroom-compatible verdicts, smart-culling suggestions, and automatic updates.</li></ul>
       </article>
     </main>
