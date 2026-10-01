@@ -1,5 +1,9 @@
 # What's new
 
+## 2.1.4
+
+- The Windows installer carries CULL's own icon and artwork, and shows a plain progress bar instead of a list of files.
+
 ## 2.1.3
 
 - The privacy policy describes where a sent report goes.
