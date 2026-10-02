@@ -1,6 +1,6 @@
 # License terms
 
-Version 1 · September 2026
+Version 2 · October 2026
 
 These terms are written in plain language.
 
@@ -12,7 +12,7 @@ CULL is made by Oliver Søgaard-Andersen ("the author"). By installing or using 
 
 - Install and use CULL on computers you own or control.
 - Use CULL for any lawful purpose, personal or commercial.
-- Keep using the version you have for as long as you like.
+- Keep using the software you installed for as long as you like; what Pro requires is in the Pro license section.
 
 ## What you may not do
 
@@ -23,9 +23,19 @@ CULL is made by Oliver Søgaard-Andersen ("the author"). By installing or using 
 
 ## Free and Pro
 
-CULL Free is free of charge and may limit the number of frames in one culling session. CULL Pro removes that limit and is licensed per person, for the computers that person uses. Prices and limits are stated in the app and on the website at the time.
+CULL Free is free of charge and has every feature, up to 250 frames in one culling session; the exact limit is stated in the app. CULL Pro removes that limit. Prices are stated on the website at the time.
 
-A Pro license may be moved from one computer to another. It may not be shared with, resold to or used by another person.
+## Pro license
+
+- A Pro license is for one person. It works on a set number of computers at a time: two for a standard license. The number for yours is shown in Settings → License.
+- You may move it: remove it on one computer in Settings → License, then enter the key on another.
+- CULL confirms Pro with the license service over the internet. A copy that has not reached the service for 30 days pauses to Free until it does.
+- A subscription gives Pro while it is paid. When it ends, the copy returns to Free.
+- A lifetime license is a single payment. It includes every update, for as long as CULL exists.
+- A license that is refunded, charged back or obtained by fraud is withdrawn, and the copy returns to Free.
+- Keys issued before CULL 2.2 are retired and no longer work.
+- The terms of sale and the refund policy are on the website.
+- A license may not be shared with, resold to or used by another person.
 
 ## Your photographs
 

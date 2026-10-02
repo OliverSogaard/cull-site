@@ -1,8 +1,20 @@
 # What's new
 
+## 2.3.2 · 2026-10-02
+
+- A copy moved to a new computer (a profile restore, Migration Assistant) takes its seat again on the first check instead of staying paused.
+- Check now says so when the license service still cannot be reached, instead of quietly staying paused. A paused copy says Paused, and no longer shows an empty key field.
+- Removing another computer from the license asks the same way everything else in Settings does: Remove?, Cancel, and twenty seconds to change your mind.
+- The Free cap on the staged screen names why a key was withdrawn or removed, and offers Get CULL Pro next to Add license.
+- About has a Support row with the address. The license messages point there, and say the key comes from your email.
+- Installing an update waits for ratings still on their way to disk, as closing the app does.
+- A half-written Feedback report survives a look at another Settings tab, and a crash report offered at launch is offered once.
+- Settings → License: the plan pill takes the focus when the plan changes, and the seats-full list is announced.
+- The license terms describe the Pro license (two computers, the online check, subscriptions, lifetime, refunds), and the privacy policy names the processors and how long license data is kept. Both are version 2.
+
 ## 2.3.1 · 2026-10-02
 
-- A license that is revoked, ended or no longer valid, a license whose two seats are both in use elsewhere, or a computer removed from its license, now goes straight back to Free: the key is forgotten, and Settings → License is the plain Free screen with one line above it saying what happened. The line stays until Pro is back, or a day after you have seen it. Entering a key is the way back; the Check now and Use this computer again buttons are gone.
+- A license that is revoked, ended or no longer valid, a license whose two seats are both in use elsewhere, or a computer removed from its license, now goes straight back to Free: the key is forgotten, and Settings → License is the plain Free screen with one line above it saying what happened. The line stays until Pro is back, or a day after you have seen it. Entering a key is the way back; for a refused key, the Check now and Use this computer again buttons are gone.
 - The Pro card on the home screen sits in the bottom-right corner, a step larger.
 
 ## 2.3.0 · 2026-10-02
@@ -10,7 +22,7 @@
 - Settings, reorganised. Every tab is two or three labelled groups with a hairline between them, the controls line up in one column, and on the tabs that have one, the row you reach for least, reset or remove, sits last in the same place.
 - About shows the version, the update check and the plan as rows; the links sit at the foot.
 - Settings → License: on Pro the computers group is headed "Computers · 1 of 2" and a free seat is drawn; on Free the key field has its own group and an error appears on a reserved line, so nothing jumps.
-- A Free copy with no key sees what Pro is, in one line, on the home screen and at the foot of the License tab. The prices are on the website.
+- A Free copy with no key sees what Pro is, in one line, on the home screen and at the foot of the License tab. The prices will be on the website.
 - The Settings hint sits beside Open folders on the home screen.
 
 ## 2.2.1 · 2026-10-02
