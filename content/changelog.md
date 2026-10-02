@@ -1,5 +1,10 @@
 # What's new
 
+## 2.3.1 · 2026-10-02
+
+- A license that is revoked, ended or no longer valid, a license whose two seats are both in use elsewhere, or a computer removed from its license, now goes straight back to Free: the key is forgotten, and Settings → License is the plain Free screen with one line above it saying what happened. The line stays until Pro is back, or a day after you have seen it. Entering a key is the way back; the Check now and Use this computer again buttons are gone.
+- The Pro card on the home screen sits in the bottom-right corner, a step larger.
+
 ## 2.3.0 · 2026-10-02
 
 - Settings, reorganised. Every tab is two or three labelled groups with a hairline between them, the controls line up in one column, and on the tabs that have one, the row you reach for least, reset or remove, sits last in the same place.
