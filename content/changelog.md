@@ -1,5 +1,13 @@
 # What's new
 
+## 2.2.1 · 2026-10-02
+
+- A revoked key, a freed seat or an ended license now reaches the app at the next launch, and when Settings → License is opened, not up to twelve hours later.
+- A computer removed from the license (from another computer or by support) goes back to Free at once and offers "Use this computer again"; CULL no longer takes a seat back on its own.
+- Settings → License: the key field formats as you type and Add license waits for a whole key; the key and computers rows run the full width; the seats line says when a seat is free; an ended license says the day it ended.
+- Dragging or double-clicking the home screen no longer moves or un-maximises the window; only the title bar does.
+- The privacy policy says what the author can see about a license.
+
 ## 2.2.0 · 2026-10-02
 
 - A license key now works on two computers, and CULL knows which ones. Settings → License lists the computers using your key, lets you remove one, and offers "Use this computer instead" when both seats are taken.
