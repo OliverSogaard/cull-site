@@ -6,27 +6,27 @@ These terms will apply to buying CULL Pro from the first day it is sold. Until t
 
 ## Who sells
 
-CULL Pro is sold by Oliver Søgaard-Andersen, Denmark ("the seller"), through a payment provider that handles the card, the receipt and, where it applies, the VAT. The provider's name appears at checkout.
+CULL Pro is sold through Paddle.com Market Ltd ("Paddle"), the merchant of record: Paddle is the seller you buy from, and handles the card, the receipt, refunds and, where it applies, the VAT. CULL itself is made and licensed by Oliver Søgaard-Andersen, Denmark ("the author"). Paddle's own terms apply to the purchase alongside these.
 
 ## What you buy
 
-A license to use CULL Pro on the computers you use, as described in the license terms. The license is delivered as a key by email straight after payment. Prices are shown before you pay and include VAT where the seller is required to charge it.
+A license to use CULL Pro on two computers at a time, as described in the license terms. The license is delivered as a key by email straight after payment. Prices are shown before you pay; VAT is added where Paddle is required to charge it.
 
 ## Trying before buying
 
-CULL Free is free of charge and has no time limit. CULL Pro can be tried free for the period stated in the app, with every feature. There is no need to buy before you have seen that it works for you.
+CULL Free is free of charge, has every feature and has no time limit; it culls up to 250 frames in one session. There is no separate trial of Pro: use Free until you know CULL works for you.
 
 ## Refunds
 
-If CULL Pro does not work for you, write within 14 days of the purchase and the price is refunded in full. No reason is needed. Under EU law you have the same right of withdrawal for a digital purchase, and these terms do not shorten it.
+If CULL Pro does not work for you, write within 14 days of the purchase and the price is refunded in full, through Paddle. No reason is needed. Under EU law you have the same right of withdrawal for a digital purchase, and these terms do not shorten it. A refunded license is withdrawn and the copy returns to Free.
 
 ## Cancelling a subscription
 
-If Pro is sold as a subscription, you can cancel at any time; access continues to the end of the paid period and nothing more is charged. A lifetime license is a single payment and never renews.
+A monthly or yearly subscription can be cancelled at any time, from the link in Paddle's receipt email or by writing to support; Pro continues to the end of the paid period and nothing more is charged. A lifetime license is a single payment and never renews.
 
 ## Prices and changes
 
-Prices can change. A change never affects a license already bought, and a subscription is charged at the price you agreed to until you cancel or the seller gives at least 30 days' notice of a new price.
+The prices are 7.99 US dollars a month, 49.99 a year, or 129.99 once for a lifetime license, before VAT. Prices can change. A change never affects a license already bought, and a subscription is charged at the price you agreed to until you cancel or you are given at least 30 days' notice of a new price.
 
 ## Contact
 

@@ -132,7 +132,7 @@ ${body}
     <footer class="footer">
       <div class="wrap footer__row">
         <div>
-          <a href="./formats.html">Formats</a><a href="./changelog.html">Changelog</a><a href="./support.html">Support</a><a href="./privacy.html">Privacy policy</a><a href="./terms.html">License terms</a><a href="./press.html">Press kit</a>
+          <a href="./formats.html">Formats</a><a href="./pro.html">Pro</a><a href="./changelog.html">Changelog</a><a href="./support.html">Support</a><a href="./privacy.html">Privacy policy</a><a href="./terms.html">License terms</a><a href="./press.html">Press kit</a>
         </div>
         <div>© ${config.year} ${esc(config.owner)}</div>
       </div>
@@ -208,6 +208,17 @@ function build() {
         title: "Formats — CULL",
         description: "Which RAW formats CULL opens, and what each one gives: zoom to 100 %, the AF point, and burst grouping, measured body by body.",
         body: read("pages/formats.html"),
+      }),
+    },
+    {
+      slug: "pro",
+      html: layout({
+        slug: "pro",
+        title: "CULL Pro — prices and how a license works",
+        description: "What CULL Pro costs (monthly, yearly or once for life), and how a license key works on two computers.",
+        body: read("pages/pro.html").replaceAll("{{supportEmailBlock}}", config.supportEmail
+          ? `<p>Support: <a href="mailto:${config.supportEmail}">${config.supportEmail}</a>.</p>`
+          : ""),
       }),
     },
     {
