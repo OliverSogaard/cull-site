@@ -1,5 +1,13 @@
 # What's new
 
+## 2.3.0 · 2026-10-02
+
+- Settings, reorganised. Every tab is two or three labelled groups with a hairline between them, the controls line up in one column, and on the tabs that have one, the row you reach for least, reset or remove, sits last in the same place.
+- About shows the version, the update check and the plan as rows; the links sit at the foot.
+- Settings → License: on Pro the computers group is headed "Computers · 1 of 2" and a free seat is drawn; on Free the key field has its own group and an error appears on a reserved line, so nothing jumps.
+- A Free copy with no key sees what Pro is, in one line, on the home screen and at the foot of the License tab. The prices are on the website.
+- The Settings hint sits beside Open folders on the home screen.
+
 ## 2.2.1 · 2026-10-02
 
 - A revoked key, a freed seat or an ended license now reaches the app at the next launch, and when Settings → License is opened, not up to twelve hours later.
