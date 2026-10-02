@@ -10,7 +10,7 @@ CULL runs on your computer. Your photographs, your verdicts and your settings st
 
 ## What CULL keeps on your computer
 
-- Your settings, your recent folders and your license, in the app's own data folder.
+- Your settings, your recent folders, your license key and its current confirmation, in the app's own data folder.
 - A log file that records what the app did, for troubleshooting. Before a line is written, every file and folder path in it is reduced to its file extension. The log never contains a name of yours, of a client, or of a folder.
 - Verdicts, written next to your photographs as XMP sidecar files, or inside a DNG, where Lightroom reads them.
 
@@ -18,7 +18,7 @@ CULL runs on your computer. Your photographs, your verdicts and your settings st
 
 - **Update check.** When CULL starts, it asks GitHub, where releases are hosted, for the newest version. As with any web request, GitHub sees your IP address; the request carries nothing else about you or your photographs.
 - **A problem report.** Only when you send one. It contains what you typed, and, if you tick the box, diagnostics: the app version, your operating system, counts of file types in the shoot, your settings without any path, and the last lines of the log. The whole report is shown to you before it leaves, and paths are reduced to file extensions once more on the way out. Pressing Send delivers it to CULL's report endpoint, which runs on Cloudflare and stores it as a private issue in a GitHub repository that only the author can read; you get a ticket number back. The endpoint accepts five reports a minute from one address and keeps nothing else about you. You can instead save the report as a file, copy it, or send it by email through your own mail program. The email address is optional and is used only to reply.
-- **Adding a license.** The key is checked on this computer; nothing is sent.
+- **Adding a license, and about every twelve hours after that.** A license key works on two computers, so when you add one, CULL tells the license service, which runs on Cloudflare and is operated by the author, which computer this is: the key, an identifier derived from this installation and this machine, the computer's name as your operating system reports it, which operating system it is, and the app version. The service answers with a signed confirmation that is good for 30 days, and CULL renews it in the background about every twelve hours when it is online. Nothing else is sent: no photographs, no paths, no settings. As with any web request, the service sees your IP address, which it uses only to limit how often one address may call it. The service keeps the key, the email address the key was bought or issued for, the computers using it with the dates they were last seen, and a log of changes to the license, for as long as the license exists. You can see and remove the computers using your key in Settings → License.
 
 CULL sends no usage statistics and no crash reports on its own, and it never uploads a photograph or a thumbnail.
 

@@ -1,5 +1,12 @@
 # What's new
 
+## 2.2.0 · 2026-10-02
+
+- A license key now works on two computers, and CULL knows which ones. Settings → License lists the computers using your key, lets you remove one, and offers "Use this computer instead" when both seats are taken.
+- Pro is confirmed with the license service in the background, about every twelve hours, so a refunded or withdrawn key stops working without a new version of CULL. A copy that cannot reach the internet keeps Pro for 30 days, then pauses to Free until it can; nothing is locked and no file is touched.
+- Keys from CULL 2.0 and 2.1 are retired. If you hold one, write to support for your new key; it is free.
+- The key field accepts a key with or without dashes, in any case.
+
 ## 2.1.5 · 2026-10-01
 
 - Feedback has its own tab in Settings, above About. The form follows what you came for: a problem asks what happened and what you expected and includes diagnostics; an idea asks what it is and why it would help; a question needs your email so the answer can reach you. Send is the one button; saving or copying the report is offered only if sending fails.
