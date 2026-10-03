@@ -1,0 +1,49 @@
+      <article class="prose key-page">
+        <h1>Your CULL key</h1>
+        <p class="hero__lead" id="key-intro">Copy it, then paste it in CULL under Settings → License.</p>
+        <p class="key-box" id="key-box" aria-live="polite"></p>
+        <p class="key-actions">
+          <button type="button" class="btn btn--primary" id="key-copy" hidden>Copy the key</button>
+          <span class="key-status" id="key-status" role="status"></span>
+        </p>
+        <p class="key-fine">
+          The key is read from this page's address on your computer and is never sent anywhere.
+          Lost the email? Write to support from the address you bought with.
+        </p>
+      </article>
+      <script>
+        // The key arrives after "#": a browser never sends that part to a
+        // server, so it reaches no log. Only a key-shaped value is shown.
+        (function () {
+          var raw = decodeURIComponent(location.hash.slice(1)).trim().toUpperCase();
+          var box = document.getElementById("key-box");
+          var btn = document.getElementById("key-copy");
+          var status = document.getElementById("key-status");
+          if (!/^CULL(-[0-9A-Z]{5}){5}$/.test(raw)) {
+            document.getElementById("key-intro").textContent =
+              "This page shows the key from your CULL email. Open it with the Copy the key link in that email.";
+            box.hidden = true;
+            return;
+          }
+          box.textContent = raw;
+          btn.hidden = false;
+          btn.addEventListener("click", function () {
+            var done = function () { status.textContent = "Copied. Paste it in CULL under Settings → License."; };
+            var fallback = function () {
+              var range = document.createRange();
+              range.selectNodeContents(box);
+              var sel = window.getSelection();
+              sel.removeAllRanges();
+              sel.addRange(range);
+              status.textContent = "Selected. Press Ctrl+C, or Cmd+C on a Mac, to copy it.";
+            };
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+              navigator.clipboard.writeText(raw).then(done, fallback);
+            } else {
+              fallback();
+            }
+          });
+          // The address bar keeps the key no longer than it has to.
+          history.replaceState(null, "", location.pathname);
+        })();
+      </script>
