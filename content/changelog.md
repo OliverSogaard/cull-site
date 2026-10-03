@@ -1,5 +1,10 @@
 # What's new
 
+## 2.4.0 · 2026-10-02
+
+- What's new shows the newest release on its own, in a card, with earlier versions folded away below it. Open any of them with a click or the keyboard.
+- A problem report can carry up to three screenshots: Add screenshot, or paste one. They are PNG or JPEG, 4 MB each, and go only with a problem, never with an idea or a question. A screenshot of CULL shows your photographs, so the tab says so before you add one. Reports saved as a file keep the screenshots beside it.
+
 ## 2.3.2 · 2026-10-02
 
 - A copy moved to a new computer (a profile restore, Migration Assistant) takes its seat again on the first check instead of staying paused.
