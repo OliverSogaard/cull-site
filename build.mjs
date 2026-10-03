@@ -225,15 +225,6 @@ function build() {
       }),
     },
     {
-      slug: "key",
-      html: layout({
-        slug: "key",
-        title: "Your CULL key",
-        description: "Copy your CULL Pro key.",
-        body: read("pages/key.html"),
-      }),
-    },
-    {
       slug: "changelog",
       html: textPage({
         slug: "changelog",
