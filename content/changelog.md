@@ -1,5 +1,9 @@
 # What's new
 
+## 2.4.1 · 2026-10-03
+
+- The website is cull.photography, and support is support@cull.photography. The app, the key emails and the site all point there now.
+
 ## 2.4.0 · 2026-10-02
 
 - What's new shows the newest release on its own, in a card, with earlier versions folded away below it. Open any of them with a click or the keyboard.
