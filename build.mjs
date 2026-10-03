@@ -189,8 +189,7 @@ function build() {
   copyDir(path.join(here, "assets"), path.join(out, "assets"));
   // GitHub Pages reads the custom domain from this file in the published
   // folder; the build empties that folder, so it writes the file again.
-  fs.writeFileSync(path.join(out, "CNAME"), "cull.photography" + "
-");
+  fs.writeFileSync(path.join(out, "CNAME"), "cull.photography\n");
 
   const read = (p) => fs.readFileSync(path.join(here, p), "utf8");
   const pages = [
